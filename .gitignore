@@ -32,8 +32,11 @@ ENV/
 .streamlit/secrets.toml
 
 # User uploads (don't commit user data)
-uploads/
 uploaded_csv_files/
+uploads/*.csv
+uploads/*.xlsx
+uploads/*.json
+!uploads/dataset_descriptions.json
 
 # Generated images
 images/
