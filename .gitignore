@@ -1,0 +1,80 @@
+*.csv
+.conda/
+__pycache__/
+*.ipynb_checkpoints/
+*.pkl
+*.png
+*.pdf
+*.pickle
+*.pyc
+*.pyo
+*.pyd
+
+requirements_working.txt
+
+# Environment variables (CRITICAL - DO NOT UPLOAD!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# User uploads (don't commit user data)
+uploads/
+uploaded_csv_files/
+
+# Generated images
+images/
+plotly_figures/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Personal files - do not commit
+ClaudeFiles01/
+DataPreparation01.ipynb
+Test_APIKey.py
+Versions of Libraries and Packages.jpg
+train_fraud_labels.json
+
+# Jupyter notebooks (optional - if you want to ignore ALL .ipynb files)
+*.ipynb
+
+# Test files
+test_*.py
+Test_*.py
+
+# Documentation images (optional)
+*.jpg
+*.png
